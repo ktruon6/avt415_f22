@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing:border-box;
+}
+.heading{
+  text-align: center;
+}
+
+.columns
+{
+  float:left;
+  width: 33.33%;
+  padding:13px;
+  min-height: 350px;
+  text-align: center;
+}
+
+.rows:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+@media screen and (max-width:760px){
+  .all-rows{
+    width:100%;
+  }
+
+
+}
+body {
+  background-color:#C3AAA5;
+  color: #181354;
+  margin: 0;
+  padding: 50px;
+  line-height: 1.75;
+}
+
+h1 {
+  font-family: 'Teko', sans-serif;
+  font-weight:bold;
+  font-size:55px;
+}
+
+
+h2 {
+font-family: 'Mukta', sans-serif;
+font-size:25px;
+
+}
+
+h3 {
+font-family: 'Teko', sans-serif;
+font-size:30px;
+margin-top: 0;
+
+}
+
+dd{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:15px;
+
+}
+
+li{
+  font-family:'josefin Sans', sans-serif;
+  font-size:15px;
+}
