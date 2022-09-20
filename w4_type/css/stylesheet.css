@@ -1,0 +1,83 @@
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url("../font/1942-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #5D6063;
+  background-color:#CEB9B5 ;
+}
+*::before
+*::after{
+  box-sizing: border-box;
+  width: auto;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  padding:25px 25px 200px 25px;
+  margin:10px 100px 10px 100px;
+  border: 4px solid blue;
+  background-color: white;
+
+
+}
+
+.div2 {
+
+  width: 300px;
+  height: 100px;
+  padding: 25px 25px 200px 25px;
+  margin: 10px 100px 10px 100px;
+  border: 4px solid red;
+  background-color: white;
+  box-sizing:border-box;
+
+}
+
+.div3 {
+  padding: 50px;
+  border: 1px solid red;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.div4 { /*design the style*/
+	padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+h1{
+	font-family: 'Jura', cursive;
+	padding-bottom: 30px;
+}
+h2 {
+	font-family: 'josefin', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h3 {
+	font-family: 'futura', sans-serif;
+	font-weight:800;
+  padding-bottom: 20px;
+}
+h4 {
+	font-family: 'futura', sans-serif;
+	font-weight:700;
+  padding-bottom: 20px;
+}
