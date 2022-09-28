@@ -1,0 +1,47 @@
+body{
+  margin:5px 10% 5px 10%;
+  padding:0;
+  background-color: #CEB9B5
+
+}
+
+
+.box
+{
+border: solid 4px;
+padding: 25px 15px 25px 15px;
+font-family: 'Kanit', sans-serif;
+font-weight: 350;
+font-size: 18px;
+}
+
+h1{
+  color: white;
+  font-style:bold;
+  font-family:'Jura',sans-serif;
+ font-weight: bold;
+
+
+}
+h3{
+  color: white;
+  font-family:'Kanit',Sans-serif;
+  font-size: 18px;
+
+}
+h4{
+  font-family:'kanit',sans-serif;
+  font-size:15px;
+  font-weight: 300;
+}
+h5{
+  font-family: 'kanit', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+h6{
+  font-family: 'kanit',sans-serif;
+  font-size:15px;
+  font-weight: 400;
+}
