@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    background-color:#9E2135;
+    margin: 0;
+    padding-bottom:20%;
+  }
+
+#container {
+	  width:90%;
+	  margin-top: 10vh;
+	  margin-left: 10vh;
+  }
+
+  p {
+    font-family:"Alkalami", serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+	  font-size: 3rem;
+  }
+
+
+  img {
+    display: block;
+    border: 10px white;
+    margin:auto;
+    padding-bottom:200px;
+
+  }
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+
+    body {
+      background-color: #F28E2D;
+    }
+
+	#container {
+      margin-top: 20vh;
+    }
+
+    p {
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+      color: #b13057;
+      text-align: center;
+    }
+
+	#cursive {
+  	}
+
+    .mobile-only {
+      display: block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+      display: none;
+    }
+
+} /* don't forget to close the styles for mobile/
